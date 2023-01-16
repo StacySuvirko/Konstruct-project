@@ -1,0 +1,10 @@
+.contacts__inner {
+    padding: 40px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__inner > *:not(:last-child) {
+    margin-right: 2em;
+}

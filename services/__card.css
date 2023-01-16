@@ -1,0 +1,12 @@
+.services__card {
+    font-size: 16px;
+    letter-spacing: 0.426667px;
+    width: 30%;
+    border: 1px solid var(--lightGrey);
+    box-sizing: border-box;
+    padding: 38px 22px 40px;
+}
+
+.services__card:not(:last-child) {
+    margin-right: 27px;
+}

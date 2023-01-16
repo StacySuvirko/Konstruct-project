@@ -1,0 +1,16 @@
+
+.page {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--white);
+}
+
+:root {
+    scroll-behavior: smooth;
+    --white: white;
+    --grey: #48555B;
+    --lightGrey: #E6E6E6;
+    --cyan: #00A4E5;
+    --lightBlue: #16ACE8;
+    --black: black;
+    --deepBlue:  #141A20;
+}

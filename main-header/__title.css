@@ -1,0 +1,9 @@
+.main-header__title {
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    letter-spacing: 5.70937px;
+    font-weight: normal;
+    line-height: 70px;
+    margin: 0;
+}

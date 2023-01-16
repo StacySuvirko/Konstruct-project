@@ -1,0 +1,6 @@
+.footer {
+    height: 60px;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+}

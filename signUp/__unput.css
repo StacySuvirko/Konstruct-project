@@ -1,0 +1,10 @@
+.signUp__input {
+    height: 40px;
+    border: none;
+    padding: 0;
+    width: 40%;
+}
+
+.signUp__input::placeholder {
+    padding-left: 1em;
+}

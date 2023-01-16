@@ -1,0 +1,8 @@
+.about__card {
+    text-align: start;
+    position: relative;
+}
+
+.about__card:not(:last-child) {
+    margin-right: 1em;
+}
