@@ -6,3 +6,13 @@
 .about__card:not(:last-child) {
     margin-right: 1em;
 }
+
+@media screen and (max-width: 320px) {
+    .about__card {
+        margin: 0 auto 1rem;
+    }
+
+    .about__card:not(:last-child) {
+        margin-right: auto;
+    }
+}

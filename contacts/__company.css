@@ -1,3 +1,9 @@
 .contacts__company {
     width: 20%;
 }
+
+/* @media screen and (max-width: 320px) {
+    .contacts__company {
+        width: inherit;
+    }
+} */

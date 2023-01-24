@@ -1,4 +1,10 @@
 .about {
     color: var(--grey);
-    margin-bottom: 120px;
+    margin-bottom: 12rem;
+}
+
+@media screen and (max-width: 320px) {
+    .about {
+        margin-bottom: 6em;
+    }
 }

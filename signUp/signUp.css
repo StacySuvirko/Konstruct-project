@@ -2,3 +2,9 @@
     background-color: var(--black);
     height: 100px;
 }
+
+@media screen and (max-width: 320px) {
+    .signUp {
+        height: unset;
+    }
+}

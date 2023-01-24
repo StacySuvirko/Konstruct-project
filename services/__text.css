@@ -3,3 +3,17 @@
     margin-right: 2em;
     width: 40%;
 }
+
+@media screen and (max-width: 768px) {
+    .services__text {
+        flex-grow: 1;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .services__text {
+        width: 100%;
+        margin: 0 auto 3rem;
+        text-align: center;
+    }
+}

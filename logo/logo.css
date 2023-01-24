@@ -3,4 +3,5 @@
     font-size: 29px;
     text-transform: uppercase;
     display: inline-block;
+    white-space: nowrap;
 }

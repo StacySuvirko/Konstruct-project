@@ -1,5 +1,8 @@
+.about__title {
+    margin-top: 0;
+}
+
 .about__title::after {
     margin-left: auto;
     margin-right: auto;
-
 }

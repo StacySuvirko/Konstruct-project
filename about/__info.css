@@ -1,5 +1,14 @@
 .about__info {
     text-align: start;
     width: 40%;
-    margin-right: 2em;;
+    margin-right: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    .about__info {
+        text-align: center;
+        width: 100%;
+        margin-right: unset;
+        margin-bottom: 3rem;
+    }
 }

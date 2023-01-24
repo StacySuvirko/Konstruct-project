@@ -1,6 +1,6 @@
 .title {
-    letter-spacing: 2.30625px;
-    font-size: 18px;
+    letter-spacing: .23rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
 }
 
@@ -10,5 +10,11 @@
     background-color: var(--cyan);
     width: 50px;
     height: 2px;
-    margin-top: 10px;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .title::after {
+        margin-left: calc(50% - 25px);
+    }
 }

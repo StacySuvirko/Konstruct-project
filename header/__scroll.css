@@ -1,0 +1,23 @@
+.header__scroll {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3.7px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    animation: scroll 1.5s cubic-bezier(.95,.53,.2,.97) 1s infinite;
+    line-height: 60px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(50px);
+    }
+}
+
+.header__scroll:hover {
+    animation-play-state: paused;
+    text-shadow: 1px 1px 2px rgb(0 0 0), 0px 4px 6px rgb(255 255 255),
+    0 6px 10px black;
+}

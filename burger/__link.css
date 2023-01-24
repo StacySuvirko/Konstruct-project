@@ -1,0 +1,20 @@
+.burger__link {
+    color: var(--grey);
+    letter-spacing: 1.09091px;
+    font-size: 12px;
+    transform-origin: center top;
+    transform: translateY(0);
+}
+
+@media screen and (max-width: 768px) {
+    .burger__link {
+        transform-origin: unset;
+        transform: unset;
+        font-size: 15px;
+        transition: .3s ease-out;
+    }
+    .burger__link:hover {
+        text-shadow: 0px 8px 2px rgba(0,0,0,0.2);
+        font-weight: 600;
+    }
+}

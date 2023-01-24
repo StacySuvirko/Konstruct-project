@@ -6,6 +6,8 @@
 
 :root {
     scroll-behavior: smooth;
+    scroll-padding-top: 65px;
+    font-size: 10px;
     --white: white;
     --grey: #48555B;
     --lightGrey: #E6E6E6;
@@ -13,4 +15,16 @@
     --lightBlue: #16ACE8;
     --black: black;
     --deepBlue:  #141A20;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: unset;
+}
+
+@media screen and (max-width: 320px) {
+    :root {
+        font-size: 8px;
+    }
 }

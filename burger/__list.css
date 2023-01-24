@@ -1,0 +1,44 @@
+.burger__list {
+    flex-direction: row;
+    justify-content: space-between;
+    transition: transform 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .burger__list {
+        width: 40vw;
+        transition: transform 0.5s ease-in-out;
+        background-color: rgb(255, 255, 255, .9);
+        height: 60vh;
+        box-shadow: 5px -3px 9px 11px rgba(0,0,0,0.54);
+        flex-direction: column;
+        padding-top: 100px;
+        padding-left: 40px;
+        justify-content: flex-start;
+        margin: 0;
+        position: absolute;
+        top: -20px;
+        right: calc(-40vw - 43px - 12vw);
+        font-size: inherit;
+        transform: translateX(0);
+    }
+
+    #burger:checked ~ .burger__list {
+        transform: translateX(-100%);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .burger__list {
+        width: 100vw;
+        right: calc(-100vw - 43px - 10vw)
+    }
+
+    #burger:checked ~ .burger__list {
+        transform: translateX(-100vw);
+    }
+
+}
+
+
+

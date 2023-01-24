@@ -7,4 +7,12 @@
 
 .signUp__input::placeholder {
     padding-left: 1em;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 320px) {
+    .signUp__input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
 }

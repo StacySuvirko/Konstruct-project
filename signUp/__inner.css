@@ -4,3 +4,10 @@
     align-items: center;
     height: 100%;
 }
+
+@media screen and (max-width: 320px) {
+    .signUp__inner {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+}

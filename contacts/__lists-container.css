@@ -1,3 +1,9 @@
 .contacts__lists-container {
     display: flex;
 }
+
+@media screen and (max-width: 320px) {
+    .contacts__lists-container {
+        justify-content: center;
+    }
+}

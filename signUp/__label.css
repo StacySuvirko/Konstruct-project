@@ -3,3 +3,10 @@
     font-size: 22px;
     margin-right: 70px;
 }
+
+@media screen and (max-width: 320px) {
+    .signUp__label {
+        font-size: 2rem;
+        margin: 1rem auto;
+    }
+}

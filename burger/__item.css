@@ -1,0 +1,42 @@
+.burger__item {
+    transition: all .5s ease;
+}
+
+.burger__item:not(:last-child) {
+    margin-right: 1em;
+}
+
+.burger__item:hover {
+    transform: perspective(1000px) translateZ(0);
+    transform-origin: center top;
+    animation: towards .3s ease-in 1 forwards;
+}
+
+@keyframes towards {
+    from {
+        text-shadow: 0px 8px 2px rgba(0,0,0,0);
+        transform: perspective(1000px) translateZ(0);
+    }
+    
+    to {
+        text-shadow: 0px 8px 2px rgba(0,0,0,0.2);
+        transform: perspective(1000px) translateZ(200px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .burger__item {
+        margin: 1.5em 0;
+    }
+
+    .burger__item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .burger__item:hover {
+        transform: unset;
+        transform-origin: unset;
+        animation-play-state: paused;
+    }
+
+}

@@ -3,9 +3,17 @@
     color: var(--white);
     width: 150px;
     height: 40px;
-    padding: 11px auto;
     border: none;
     background-color: var(--cyan);
     size: 13px;
     white-space: nowrap;
+    padding: unset;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+    .button {
+        font-size: 1.5rem;
+    }
 }
