@@ -7,19 +7,14 @@
     padding: 3.8rem 2.2rem 4rem;
 }
 
-.services__card:not(:last-child) {
-    margin-right: 2.7rem;
-}
-
 @media screen and (max-width: 320px) {
     .services__card {
-        margin-right: unset;
-        width: 100%;
-        margin-bottom: 1rem;
         text-align: center;
     }
+}
 
-    .services__card:not(:last-child) {
-        margin-right: unset;
+@media screen and (max-width:768px){
+    .services__card {
+        flex: 1 1 175px;
     }
 }

@@ -52,6 +52,7 @@
     <link rel="stylesheet" href="services\__text.css">
     <link rel="stylesheet" href="services\__card.css">
     <link rel="stylesheet" href="services\__cards.css">
+    <link rel="stylesheet" href="services/__title.css">
     <link rel="stylesheet" href="./work/__title.css">
     <link rel="stylesheet" href="./work/work.css">
     <link rel="stylesheet" href="./work/__inner.css">
@@ -70,7 +71,6 @@
     <link rel="stylesheet" href="./contacts/__text.css">
     <link rel="stylesheet" href="./contacts/__net.css">
     <link rel="stylesheet" href="./contacts/__lists-container.css">
-    <link rel="stylesheet" href="contacts/__company.css">
     <link rel="stylesheet" href="contacts/__item.css">
     <link rel="stylesheet" href="./footer/footer.css">
     <link rel="stylesheet" href="./footer/__text.css">
@@ -79,7 +79,9 @@
 <body class="page">
     <header id="home" class="header">
         <div class="inner header__inner">
-            <div class="logo">konstru<img src="./logo/Triangle.png" alt="Triangle">t</div>
+            <div class="logo">konstru<svg class="header__logo" xmlns="http://www.w3.org/2000/svg" width="9" height="21" viewBox="0 0 9 21" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0255127 10.4852L8.38915 0.0306091V20.9397L0.0255127 10.4852Z" fill="#00A4E5"/>
+            </svg>t</div>
             <div class="main-header">
                 <h1 class="main-header__title">partner with konstruct</h1>
                 <p class="text text--mid main-header__text">An award-winning construction management firm</p>
@@ -89,7 +91,9 @@
     </header>
     <nav class="nav-bar">
         <div class="nav-bar__inner inner">
-            <div class="logo nav-bar__logo">konstru<img src="./logo/Triangle.png" alt="Triangle" class="logo__img">t</div>
+            <div class="logo nav-bar__logo">konstru<svg xmlns="http://www.w3.org/2000/svg" width="9" height="21" viewBox="0 0 9 21" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0255127 10.4852L8.38915 0.0306091V20.9397L0.0255127 10.4852Z" fill="#00A4E5"/>
+        </svg>t</div>
             <div class="burger"> 
                 <input type="checkbox" id="burger" class="burger__input">
                 <label for="burger" class="burger__label"></label>
@@ -143,26 +147,24 @@
         <div class="inner">
             <div class="services__info">
                 <h4 class="title services__title text">our capabilities</h4>
-                <div class="servises__info-inner-wright">
-                    <p class="text text--small services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-                    <button class="button text">all services</button>
-                </div>
+                <p class="text text--small services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                <button class="button text">all services</button>
             </div>
             <div class="services__cards">
                 <div class="services__card">
                     <img src="./services/servCardImg1.png" alt="pens and a note">
                     <h4 class="text">PROJECT AND CONSTRUCTION MANAGEMENT</h4>
-                    <p class="text text--small about__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    <p class="text text--small about__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, <br> sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                 </div>
                 <div class="services__card">
                     <img src="./services/servCardImg2.png" alt="a house">
                     <h4 class="text">STRUCTURE AUDIT AND MAINTENANCE</h4>
-                    <p class="text text--small about__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    <p class="text text--small about__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  <br>sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                 </div>
                 <div class="services__card">
                     <img src="./services/servCardImg3.png" alt="another house">
                     <h4 class="text">FACTORY CONSTRUCTION AND MODELING</h4>
-                    <p class="text text--small about__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    <p class="text text--small about__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  <br>sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                 </div>
             </div>
         </div>
@@ -185,7 +187,9 @@
         <div class="inner contacts__inner">
             <div class=" contacts__item contacts__company">
                 <h5 class="contacts__title text text--small">company</h5>
-                <div class="logo">konstru<img src="./logo/Triangle.png" alt="Triangle" class="logo__img">t</div>
+                <div class="logo">konstru<svg xmlns="http://www.w3.org/2000/svg" width="9" height="21" viewBox="0 0 9 21" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0255127 10.4852L8.38915 0.0306091V20.9397L0.0255127 10.4852Z" fill="#00A4E5"/>
+            </svg>t</div>
                 <p class="text text--small contacts__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
             </div>
             <div class="contacts__item contacts__links">

@@ -1,19 +1,24 @@
 .services__text {
-    font-size: 11px;
-    margin-right: 2em;
+    font-size: 1.1rem;
     width: 40%;
 }
 
 @media screen and (max-width: 768px) {
     .services__text {
         flex-grow: 1;
+        min-width: 200px;
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 320px) {
     .services__text {
         width: 100%;
-        margin: 0 auto 3rem;
-        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .services__text {
+        font-size: 11px;
     }
 }

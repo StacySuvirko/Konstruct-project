@@ -13,6 +13,14 @@
 @media screen and (max-width: 320px) {
     .signUp__input {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .signUp__input {
+        flex-grow: 2;
+        max-width: 300px;
+        min-width: 200px;
         margin-bottom: 1rem;
     }
 }

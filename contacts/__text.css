@@ -1,4 +1,10 @@
 .contacts__text {
     font-style: normal;
-    font-size: 11px;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width:1024px){
+    .contacts__text {
+        font-size: 11px;
+    }
 }

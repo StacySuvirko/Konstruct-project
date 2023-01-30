@@ -2,16 +2,12 @@
     display: inline-flex;
     align-items: center;
     justify-content: flex-end;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 768px) {
     .servises__info-inner-wright {
         justify-content: space-around;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .servises__info-inner-wright {
-        flex-flow: row wrap;
     }
 }

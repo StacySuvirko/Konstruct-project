@@ -7,7 +7,7 @@
 :root {
     scroll-behavior: smooth;
     scroll-padding-top: 65px;
-    font-size: 10px;
+    font-size: 14px;
     --white: white;
     --grey: #48555B;
     --lightGrey: #E6E6E6;
@@ -26,5 +26,11 @@ a {
 @media screen and (max-width: 320px) {
     :root {
         font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    :root {
+        font-size: 10px;
     }
 }

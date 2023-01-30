@@ -1,7 +1,7 @@
 .burger__link {
     color: var(--grey);
-    letter-spacing: 1.09091px;
-    font-size: 12px;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
     transform-origin: center top;
     transform: translateY(0);
 }

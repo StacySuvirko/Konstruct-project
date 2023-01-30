@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 8rem;
+    gap: 2em;
+    align-items: center;
 }
 
 @media screen and (max-width: 768px) {
