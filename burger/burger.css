@@ -1,6 +1,6 @@
 .burger {
-    width: 50%;
     max-width: 600px;
+    flex-grow: 1;
 }
 
 @media screen and (max-width: 768px) {
