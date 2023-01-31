@@ -1,4 +1,5 @@
 .about__card {
     text-align: start;
     position: relative;
+    font-size: 0;
 }
