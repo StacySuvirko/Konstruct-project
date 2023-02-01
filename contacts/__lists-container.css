@@ -1,5 +1,6 @@
 .contacts__lists-container {
     display: flex;
+    gap: 2em;
 }
 
 @media screen and (max-width: 320px) {

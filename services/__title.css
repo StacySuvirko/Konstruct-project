@@ -1,6 +1,5 @@
 .services__title {
-    margin: 0;
-    white-space: nowrap;
+    flex: 1 0 auto;
 }
 
 @media screen and (max-width:768px){

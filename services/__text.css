@@ -1,12 +1,17 @@
 .services__text {
     font-size: 1.1rem;
-    width: 40%;
+    flex: 3 1 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .services__text {
+        min-width: 200px;
+        font-size: 11px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .services__text {
-        flex-grow: 1;
-        min-width: 200px;
         text-align: center;
     }
 }
@@ -14,11 +19,5 @@
 @media screen and (max-width: 320px) {
     .services__text {
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .services__text {
-        font-size: 11px;
     }
 }

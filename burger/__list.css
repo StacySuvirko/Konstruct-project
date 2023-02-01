@@ -17,14 +17,14 @@
         justify-content: flex-start;
         margin: 0;
         position: absolute;
-        top: -20px;
+        top: -17px;
         right: calc(-40vw - 43px - 12vw);
         font-size: inherit;
         transform: translateX(0);
     }
 
     #burger:checked ~ .burger__list {
-        transform: translateX(-100%);
+        transform: translateX(-105.4%);
     }
 }
 

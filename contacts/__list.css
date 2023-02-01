@@ -1,11 +1,6 @@
 .contacts__list {
     flex-direction: column;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.contacts__list:not(:last-child) {
-    margin-right: 2em;;
+    margin: 0;
 }
 
 @media screen and (max-width: 320px) {

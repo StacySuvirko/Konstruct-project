@@ -2,12 +2,14 @@
 .page {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--white);
+    overflow-x: clip;
 }
 
 :root {
     scroll-behavior: smooth;
-    scroll-padding-top: 65px;
+    /* scroll-padding-top: 76px; */
     font-size: 12px;
+    overflow-x: clip;
     --white: white;
     --grey: #48555B;
     --lightGrey: #E6E6E6;
@@ -23,14 +25,21 @@ a {
     color: unset;
 }
 
-@media screen and (max-width: 320px) {
-    :root {
-        font-size: 8px;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     :root {
         font-size: 10px;
+        scroll-padding-top: 63px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        scroll-padding-top: 57px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    :root {
+        font-size: 8px;
     }
 }

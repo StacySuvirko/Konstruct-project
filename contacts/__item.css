@@ -1,5 +1,13 @@
 .contacts__item:first-child {
-    flex-basis: 110px;
+    flex-basis: 120px;
+}
+
+@media screen and (max-width: 768px) {
+    .contacts__item:last-child,
+    .contacts__item:first-child
+     {
+        flex-grow: 1;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -8,10 +16,4 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .contacts__item:last-child,
-    .contacts__item:first-child
-     {
-        flex-grow: 2;
-    }
-}
+

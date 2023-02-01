@@ -1,21 +1,13 @@
 .about__body {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 2rem;
+    justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
-
-@media screen and (max-width: 768px) {
-    .about__body {
-        flex-direction: column;
-        justify-content: center;
-    }
-}
-
 
 @media screen and (max-width: 1024px) {
     .about__body {
-        justify-content: space-evenly;
+        justify-content: center;
     }
 }

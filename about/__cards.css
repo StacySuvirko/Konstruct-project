@@ -1,7 +1,5 @@
 .about__cards {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     flex-wrap: wrap;
     gap: 1em;
 }
@@ -9,11 +7,5 @@
 @media screen and (max-width: 768px) {
     .about__cards {
         justify-content: center;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .about__cards {
-        flex-flow: row wrap;
     }
 }

@@ -5,15 +5,7 @@
     height: 40px;
     border: none;
     background-color: var(--cyan);
-    size: 13px;
-    white-space: nowrap;
+    font-size: 13px;
     padding: unset;
-    flex-shrink: 0;
     cursor: pointer;
-}
-
-@media screen and (max-width: 320px) {
-    .button {
-        font-size: 1.5rem;
-    }
 }

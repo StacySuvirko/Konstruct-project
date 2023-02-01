@@ -2,19 +2,17 @@
     text-align: start;
     width: 40%;
     max-width: 80%;
-    flex-grow: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .about__info {
+        flex-grow: 1;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .about__info {
         text-align: center;
         align-items: center;
-        width: unset;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .about__info {
-        flex-grow: 1;
     }
 }
